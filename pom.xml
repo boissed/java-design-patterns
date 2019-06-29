@@ -357,10 +357,10 @@
                         </lifecycleMappingMetadata>
                     </configuration>
                 </plugin>
-            </plugins>
-        </pluginManagement>
+<!--             </plugins> -->
+<!--         </pluginManagement> -->
 
-        <plugins>
+<!--         <plugins> -->
             <!-- Tell maven to compile using Java 8 -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -468,6 +468,7 @@
                 </executions>
             </plugin>
         </plugins>
+        </pluginManagement>
     </build>
 
     <reporting>
